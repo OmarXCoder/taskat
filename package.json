@@ -1,0 +1,24 @@
+{
+    "type": "module",
+    "name": "taskat",
+    "version": "1.0.0",
+    "description": "CLI tool for managing todos",
+    "main": "dist/index.js",
+    "author": "Omar Ali<OmarXcoder@gmail.com>",
+    "license": "MIT",
+    "bin": {
+        "taskat": "./dist/index.js"
+    },
+    "dependencies": {
+        "chalk": "^5.0.1",
+        "commander": "^9.4.0",
+        "conf": "^10.2.0"
+    },
+    "keywords": [
+        "taskat",
+        "tasks",
+        "todos",
+        "todos manager",
+        "CLI tool"
+    ]
+}
