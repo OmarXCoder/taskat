@@ -2,7 +2,7 @@ import Conf from 'conf';
 // @ts-ignore
 const store = new Conf({
     projectName: 'taskat',
-    projectVersion: '1.0.2',
+    projectVersion: '1.0.3',
 });
 
 export interface Task {

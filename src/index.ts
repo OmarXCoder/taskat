@@ -13,7 +13,7 @@ program
     .name('taskat')
     .description('CLI tool for managing TODOs')
     .action(listCmdHandler)
-    .version('1.0.2');
+    .version('1.0.3');
 
 /**
  * @command list

@@ -1,11 +1,16 @@
 {
     "type": "module",
     "name": "taskat",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "CLI tool for managing todos",
     "main": "dist/index.js",
     "author": "Omar Ali<OmarXcoder@gmail.com>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OmarXCoder/taskat.git"
+    },
+    "homepage": "https://github.com/OmarXCoder/taskat#readme.md",
     "bin": {
         "taskat": "./dist/index.js"
     },
