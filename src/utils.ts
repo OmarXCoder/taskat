@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { Task } from './types.js';
+import { Task } from './store.js';
 
 export const log = (str: string, bgColor: string) => {
     // @ts-ignore

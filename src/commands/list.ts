@@ -1,5 +1,4 @@
-import { getAllTasks, getDoneTasks, getUndoneTasks } from '../store.js';
-import { Task } from '../types.js';
+import { Task, getAllTasks, getDoneTasks, getUndoneTasks } from '../store.js';
 import { danger, printTask } from '../utils.js';
 
 const listCmdHandler = (options: { done: boolean; undone: boolean }) => {

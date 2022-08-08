@@ -1,7 +1,7 @@
 import Conf from 'conf';
 const store = new Conf({
     projectName: 'taskat',
-    projectVersion: '1.0.0',
+    projectVersion: '1.0.1',
 });
 export const TODOS_STORE_KEY = 'todo-list';
 export const getAllTasks = () => {

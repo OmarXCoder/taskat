@@ -1,10 +1,15 @@
-import { Task } from './types.js';
 import Conf from 'conf';
 // @ts-ignore
 const store = new Conf({
     projectName: 'taskat',
-    projectVersion: '1.0.0',
+    projectVersion: '1.0.1',
 });
+
+export interface Task {
+    id: number;
+    text: string;
+    done: boolean;
+}
 
 export const TODOS_STORE_KEY = 'todo-list';
 

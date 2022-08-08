@@ -1,5 +1,4 @@
-import { addTask, lastTaskId } from '../store.js';
-import { Task } from '../types.js';
+import { Task, addTask, lastTaskId } from '../store.js';
 import { success } from '../utils.js';
 import listCmdHandler from './list.js';
 
